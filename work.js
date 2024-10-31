@@ -21,4 +21,4 @@ const bagPrice = 10;
 const bagDiscount = 24;
 let salePrice = bagPrice + bagDiscount;
 
-let person = "Me", carName = "Lambo" , age = 14 , netWorth = "0 💀"
+let person = "Me", carName = "Lambo" , age = 14 , netWorth = "0"
