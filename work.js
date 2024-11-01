@@ -58,3 +58,66 @@ raceCars.model = "M4"
 
 //Adding a new property to "const raceCars":
 raceCars.carName = "X_Cite."
+
+//Operators
+let text1 = "I"
+let text2 = " Am Me"
+let text3 = text1+ "" +text2
+console.log(text3)
+
+//increments
+let p = 5;
+p++; // or p--;
+let b = p;
+console.log(b)
+
+let g = 5
+let t = g ** 2
+console.log(t)
+
+//Exponentiation.
+let w = 5;
+let i = Math.pow(w,2)
+console.log(i)
+
+//Arethemeytic operations
+let l = 5;
+let v = (l * 12) / 20;
+console.log("The V result is ", v)
+
+//Using everything i learnt to practice:
+/*let self = document.getElementById("testid").innerText = function myFucntion() {
+    const playerData = {
+        playerName: "Player",
+    }
+
+    document.getElementById("testid").innerText = playerData.playerName
+}*///I will come back to this 😭
+
+//Adding strings together.
+let string1 = "Exception"
+let string2 = " Time."
+console.log(string1 + "" + string2)
+
+//Simple assignment operators
+let h = 5;
+let vb = 20 + h;
+console.log(vb ,"-- Line 105")
+
+let radnum1 = 10;
+radnum1 %= 5;
+console.log(radnum1, "--line 109")
+
+let text = "Hello"
+text += " World"
+console.log(text, "--line 133")
+
+//<<== oprator
+let number1 = -100
+number1 <<= 5;
+console.log(number1,"--line 188")
+
+//Bitwise
+let greaternumber = 10;
+greaternumber &&= 5;
+console.log(greaternumber ,"--Line 123")
