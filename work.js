@@ -44,3 +44,17 @@ const vechiles = ["Mercedes Benz", "Porshe", "Lexus"]
 
 vechiles[2] = "BMW";
 vechiles.push = "Lexus" //Changed and replaced arrays
+
+//Creating a const Object.
+const raceCars = {
+    type:"BMW",
+    model:"M3",
+    color:"White",
+}
+
+//Changing the property of "const raceCars"
+raceCars.color = "Gold"
+raceCars.model = "M4"
+
+//Adding a new property to "const raceCars":
+raceCars.carName = "X_Cite."
