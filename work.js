@@ -32,3 +32,15 @@ function welcome() {
 }
 let greeting = welcome()
 document.getElementById("content").innerText = "greeting";
+
+//CONST
+//Creating a constant array:
+const vechiles = ["Mercedes Benz", "Porshe", "Lexus"]
+
+//Manipulating variables with "Const"
+/* 
+1.) Changing elements
+ */
+
+vechiles[2] = "BMW";
+vechiles.push = "Lexus" //Changed and replaced arrays
