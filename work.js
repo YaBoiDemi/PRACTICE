@@ -174,3 +174,18 @@ const carDrice = ["VolVo", "Benz", "Tesla"]
 const date = new Date("2024-01-11")
 
 //Functions
+function myFucntion(p1, p2) {
+    return p1 * p2;
+}
+
+let int = myFucntion(3, 5);
+console.log(int)
+console.log(myFucntion(2, 5) ,"--Line 182")
+
+//Convert Fahrenheit to Celsius:
+function toCelceius(Fahrenheit) {
+    return (5/9) * (Fahrenheit-32);
+}
+
+let converter = toCelceius(30)
+console.log(converter)
