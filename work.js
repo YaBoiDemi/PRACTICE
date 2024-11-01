@@ -24,5 +24,11 @@ let salePrice = bagPrice + bagDiscount;
 let person = "Me", carName = "Lambo" , age = 14 , netWorth = "0"
 
 {
-    var number = 1 + 1
+    var number = 1 + 1;
 }
+
+function welcome() {
+    var message = "Welcome User.";
+}
+let greeting = welcome()
+document.getElementById("content").innerText = "greeting";
