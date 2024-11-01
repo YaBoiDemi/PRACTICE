@@ -187,5 +187,6 @@ function toCelceius(Fahrenheit) {
     return (5/9) * (Fahrenheit-32);
 }
 
-let converter = toCelceius(30)
+let converter = toCelceius(500)
 console.log(converter)
+let message = "The weather is" +toCelceius(30)+ ""
