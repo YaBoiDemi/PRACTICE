@@ -121,3 +121,56 @@ console.log(number1,"--line 188")
 let greaternumber = 10;
 greaternumber &&= 5;
 console.log(greaternumber ,"--Line 123")
+
+//Data Types.
+/* 
+[1] Numbers.
+*/
+
+let lenght = 20;
+let width = 1.7;
+
+//Data type #2
+
+/*
+[2] strings
+*/
+let color = "green";
+let lastName = "cite.";
+
+//Data type #3
+
+/*
+[3] Booleans.
+*/
+
+let Boolean1 = true;
+let Boolean2 = false;
+
+//Data type #4
+
+/*
+[4] Objects.
+*/
+
+const people = {
+    firstname: "X",
+    lastname: "Cite."
+}
+
+//Data type #5
+
+/*
+[5] Array Objects.
+*/
+
+const carDrice = ["VolVo", "Benz", "Tesla"]
+
+//Data type #6
+
+/*
+[6] Date Objects.
+*/
+const date = new Date("2024-01-11")
+
+//Functions
